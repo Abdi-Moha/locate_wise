@@ -2,6 +2,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:locate_wise/screens/camera_screen.dart';
 
+void main() {
+  runApp(const SplashScreen());
+}
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
