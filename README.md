@@ -1,7 +1,10 @@
 # LocateWise 🌍📸
 **Smart Location & Contact Management with AI Integration**
 
-![LocateWise Flowchart](https://drive.google.com/file/d/1UmtjfxfVJ4DQGND3py7nBKQbJEXIymfk/view?usp=drive_link)  
+![LocateWise Flowchart](![flowchart.png](..%2F..%2FDownloads%2FMy%20Web%20Projects%2Fflowchart.png))
+
+
+
 
 
 ## Overview 📖
