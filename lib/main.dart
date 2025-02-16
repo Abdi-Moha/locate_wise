@@ -3,7 +3,23 @@ import 'package:flutter/material.dart';
 import 'package:locate_wise/screens/camera_screen.dart';
 
 void main() {
-  runApp(const SplashScreen());
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Locate Wise',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const SplashScreen(),
+    );
+  }
 }
 
 class SplashScreen extends StatefulWidget {
@@ -18,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     // Navigate to camera screen after 2 seconds
-    Timer(const Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 4), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => const CameraScreen()),
@@ -38,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Hero(
               tag: 'app-logo',
               child: Image.asset(
-                'assets/logo.png', 
+                'assets/logo.png',
                 width: 150,
                 height: 150,
               ),

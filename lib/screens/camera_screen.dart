@@ -11,7 +11,8 @@ class _CameraScreenState extends State<CameraScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Text("Hello World!"),
+      body: Center(child: SafeArea(child: Text("Hello World!"),)),
     );
   }
 }
+
