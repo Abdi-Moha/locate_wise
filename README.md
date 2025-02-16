@@ -3,10 +3,6 @@
 
 ![LocateWise Flowchart](https://github.com/Abdi-Moha/locate_wise/blob/main/flowchart.png?raw=true)
 
-
-
-
-
 ## Overview 📖
 
 LocateWise is a cross-platform mobile application built with Flutter, designed to simplify location management through camera capture, map visualization, and AI chatbot assistance.  
