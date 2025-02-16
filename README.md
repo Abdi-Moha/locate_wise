@@ -1,9 +1,9 @@
 # LocateWise 🌍📸
 **Smart Location & Contact Management with AI Integration**
 
-![LocateWise Flowchart](![flowchart.png](..%2F..%2FDownloads%2FMy%20Web%20Projects%2Fflowchart.png))
+![LocateWise Flowchart](https://github.com/Abdi-Moha/locate_wise/blob/main/flowchart.png?raw=true)
 
-![flowchart.png](..%2F..%2FDownloads%2FMy%20Web%20Projects%2Fflowchart.png)
+
 
 
 
